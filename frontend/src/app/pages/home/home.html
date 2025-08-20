@@ -1,0 +1,12 @@
+<div id="main">
+  <ng-container *ngFor="let article of articles">
+    <app-article-preview [articleId]="article.id"></app-article-preview>
+  </ng-container>
+</div>
+
+<section id="sidebar">
+  <app-intro></app-intro>
+  <app-article-title-preview></app-article-title-preview>
+  <app-about-preview></app-about-preview>
+  <app-footer></app-footer>
+</section>

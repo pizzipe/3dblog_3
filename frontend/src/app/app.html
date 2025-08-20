@@ -1,0 +1,10 @@
+<div id="screen" [ngClass]="[this.isLoading ? 'is-preload' : '', this.menuOpen ? 'is-menu-visible' : '']">
+  <app-menu></app-menu>
+  <div id="overlay" [ngClass]="this.menuOpen ? 'is-menu-visible' : ''" (click)="hide()"></div>
+
+  <div id="wrapper">
+    <app-header (menuOpen)="readMenuStatus($event)"></app-header>
+    <router-outlet></router-outlet>
+    <!--  <app-footer></app-footer>-->
+  </div>
+</div>
