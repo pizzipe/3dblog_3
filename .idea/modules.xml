@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/3dblog_3.iml" filepath="$PROJECT_DIR$/3dblog_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../templates/html5up-future-imperfect/html5up-future-imperfect.iml" filepath="$PROJECT_DIR$/../../templates/html5up-future-imperfect/html5up-future-imperfect.iml" />
+    </modules>
+  </component>
+</project>
