@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://directus-bame.onrender.com'
+  apiUrl: 'https://directus2.onrender.com'
 };
